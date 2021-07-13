@@ -1,0 +1,27 @@
+
+
+
+img.a {
+	height: 300px;
+	width: auto;
+}
+
+main {
+	background-color: black;
+	color: greenyellow;
+
+}
+
+body {
+	background-image: url(/Unit6/Unit6Images/lightning.gif);
+	background-size: cover;
+	background-repeat: repeat-x;
+
+}
+
+#wrapper {
+	width: 60%;
+	margin: auto;
+	margin-top: 30px;
+
+}
