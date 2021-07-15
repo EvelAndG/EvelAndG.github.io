@@ -19,34 +19,42 @@ Add your CSS to the ID selectors below
 */
 
 #ball{
-margin-left: 215px;
-margin-top: 13px;
+margin-left: 172px;
+
+padding-top: 12px;
 }
 
 #turnip{
 margin-left: 489px;
-margin-top: 190px;
+margin-top: 189px;
 }
 
 #grass{
-margin-left: 47px;
-margin-top: 190px;
+
+	margin-left: 47px;
+	margin-top: 189px;
+
+	/* This is more accurate, doesn't move
+position: absolute;
+top: 459px;
+left: 693px;
+*/
 }
 
 #L{
 	margin-left: 292px;
-	margin-top: 1325px;
+	margin-top: 1350px;
 
 }
 
 #T{
+	margin-left: 96px;
+	margin-top: 1450px;
 
 }
 
 #I{
-  
+  margin-left: 295px;
+	margin-top: 1350px;
 }
 
-a {
-	display: inline;
-}
