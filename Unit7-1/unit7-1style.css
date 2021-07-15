@@ -6,12 +6,15 @@ body{
   width: 1600px;
   background-repeat: no-repeat;
   background-position: 200px 0;
+	
   
 }
 img{
   /*these properties together allow inline elements on the same row to have independent top and bottom margins/padding*/
   display:inline-block;
   vertical-align: top;
+	
+	
 }
 
 /*
@@ -19,7 +22,8 @@ Add your CSS to the ID selectors below
 */
 
 #ball{
-margin-left: 172px;
+
+margin-left: 215px;
 
 padding-top: 12px;
 }
