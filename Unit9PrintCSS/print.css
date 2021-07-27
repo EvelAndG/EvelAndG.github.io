@@ -2,21 +2,28 @@
  hide the rest 
   div:not(#center){
 	 display: none} ;*/
-ul, ol, img, nav, footer, p, h3 {
+img, footer {
 	display: none;
 }
 
+#news {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+#nav {
+	display: none;
+}
+#footer {
+	display: none;
+}
 
 
 /*include URLs after each hyperlink */
 a::after {
 	content:" ("attr(href)")";
 }
-
-
-
-
-
 
 /* increase font size of the body */
 body {
