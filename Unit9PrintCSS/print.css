@@ -1,0 +1,31 @@
+/*use display: none to hide all unneeded sections. keep header text and text in the <div id="center">  
+ hide the rest 
+  div:not(#center){
+	 display: none} ;*/
+ul, ol, img, nav, footer, p, h3 {
+	display: none;
+}
+
+
+
+/*include URLs after each hyperlink */
+a::after {
+	content:" ("attr(href)")";
+}
+
+
+
+
+
+
+/* increase font size of the body */
+body {
+	font-size: 1.25em;
+}
+
+* {
+	background-color: white;
+	color: black;
+}
+
+
