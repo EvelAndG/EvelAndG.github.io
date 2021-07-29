@@ -1,9 +1,11 @@
 table, th, td  {
 	border: 1px solid black;
-
+	padding: 15px;
 	margin: auto;
+	width: 80%;
 
-	padding: 5px;
+
+
 
 	border-collapse: collapse;
 }
@@ -19,17 +21,18 @@ a:hover {
 }
 
 #t3{
-
+	text-align: left;
 	margin: auto;
 	border: none;
 
 }
-#t3:th {
-	border: none;
+#t4 {
+	width: 200px;
+
+	border:none;
+	
 }
-#t3 tr {
-	border: none;
-}
+
 
 #t3 tr:nth-child(even) {
   background-color: #CCCCCC;
