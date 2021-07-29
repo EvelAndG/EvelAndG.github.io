@@ -1,0 +1,36 @@
+table, th, td  {
+	border: 1px solid black;
+
+	margin: auto;
+
+	padding: 5px;
+
+	border-collapse: collapse;
+}
+
+a {
+	color: black;
+	display: block;
+	text-align: center;
+}
+
+a:hover {
+	background-color: lightskyblue;
+}
+
+#t3{
+
+	margin: auto;
+	border: none;
+
+}
+#t3:th {
+	border: none;
+}
+#t3 tr {
+	border: none;
+}
+
+#t3 tr:nth-child(even) {
+  background-color: #CCCCCC;
+}
