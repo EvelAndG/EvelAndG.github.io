@@ -1,4 +1,6 @@
-
+body {
+	background-color: rgb(182, 182, 182);
+}
 
 #center {
 	background: rgb(121, 121, 121);
@@ -27,17 +29,30 @@
 		border: 1px solid black;
 		padding: 10px;
 		width: 150px;
+		border-collapse: collapse;
+		background-color: aqua;
+		
 		
 }
 
 a:hover {
 
-	color: rgb(255, 255, 255) !important;
+	color: rgb(255, 0, 0) !important;
 	
 }
 h1 {
 	text-align: center;
 	font-family: "Lucida Console", "Courier New", "monospace";
 	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(0, 32, 121);
+  padding: 10px;
+	background-color: lightgrey;
+	border-collapse: collapse;
 }
 
