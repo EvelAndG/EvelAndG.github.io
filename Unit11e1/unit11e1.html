@@ -13,82 +13,86 @@
 	</div>
 	<br><br>
 </header>
+
 <body>
-
-
-
-
-
+	<!--fieldset below is holding entire survey -->
 	<fieldset>
-		<legend>Unit 11 Exercise 1 Survey</legend>
-	
+		<legend id="legend1">Guitar Survey</legend>
+
+	<!--fieldset below is holding email and name -->
+	<fieldset>
+
 	<form>
 		<label class="bold" for="fname">First Name:</label><br>
 		<input type="text" id="fname" name="fname">
 		<br>
 
-
-
 		<label class="bold" for="email">E-mail address:</label><br>
-		<input type="text" id="email" name="email"><br>
+		<input type="text" id="email" name="email"><br><br>
+	</fieldset>
 
-
-
-
-
-<!--Radio button -->
-				
-		<p>Make a choice</p>
+<!--Radio button in another fielset-->
+		<fieldset>	
+		<legend>Choose your favorite guitar manufacturer</legend>
 
 		<input type="radio" id="choice1" name="choices" value="choice1">
-		<label for="choice1">Choice 1</label><br>
+		<label for="choice1">Fender</label><br>
 
 		<input type="radio" id="choice2" name="choices" value="choice2">
-		<label for="choice2">Choice 2</label><br>
+		<label for="choice2">Gibson</label><br>
 
 		<input type="radio" id="choice3" name="choices" value="choice3">
-		<label for="choice3">Choice 3</label><br>
+		<label for="choice3">Taylor</label><br>
 
 		<input type="radio" id="choice4" name="choices" value="choice4">
-		<label for="choice4">Choice4</label><br>
-	
+		<label for="choice4">Yamaha</label>
+		</fieldset>
+		<br>
 
 
-<!--Check box group -->
-<p>The checkbox group</p>
+<!--Check box group in another fieldset -->
+<fieldset>
+<legend>Check the box for any you may own</legend>
 
 		<input type="checkbox" id="c1" name="c1" value="choice 1">
-		<label for="c1">Checkbox 1</label><br>
+		<label for="c1">solid body electric guitar</label><br>
 
 		<input type="checkbox" id="c2" name="c2" value="choice 2">
-		<label for="c1">Checkbox 2 </label><br>
+		<label for="c1">hollow body electric </label><br>
 
 		<input type="checkbox" id="c3" name="c3" value="choice 3">
-		<label for="c3">Checkbox 3</label><br>
-	
-
-
-	
-		<p>Make a selection</p>
+		<label for="c4">acoustic</label><br>
+			<input type="checkbox" id="c4" name="c4" value="choice 4">
+		<label for="c3">bass guitar</label><br>
+</fieldset>
+	<!-- Selection box -->
+		<p>Select the most iconic guitar</p>
 		
 		<select size="3" name="selection" id="selection">
-			<option value="selection1">Selection 1</selection>
-			<option value="selection2">Selection 2</selection>
-			<option value="selection3">Selection 3</selection>
-			<option value="selection4">Selection 4</selection>
-			<option value="selection5">Selection 5</selection>
+			<option value="selection1">Gibson SG</selection>
+			<option value="selection2">Gibson Les Paul</selection>
+			<option value="selection3">Gibson Flying V</selection>
+			<option value="selection4">Fender Stratocaster</selection>
+			<option value="selection5">Fender Telecaster</selection>
 		</select>
 
 <br><br>
 
-<!--Scrolling Text box -->
+<!--Scrolling Text box 
 	
 		<label class="bold" for="textbox">Scrolling text box:</label><br>
-		<textarea id="textbox" name="textbox" rows="3" cols="60"></textarea><br>
-		
+		<input type="text" id="textbox" name="textbox" size="60" rowspan="3"><br>	
 <br>
+	-->
+
+		<label class="bold" for="scrollbox">What made you want to learn to play guitar?</label><br>
+		<textarea name="scrollbox" rows="3" cols="60"></textarea>
+
+<br><br>
 	<input type="submit" value="Submit">
 	<input type="reset">
+
+<br>
 </fieldset>
 </form>
 
