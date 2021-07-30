@@ -15,27 +15,26 @@
 <h1>Some kind of survey form</h1>
 
 
-<div>
+
+	<fieldset>
+	
 	<form>
 		<label for="fname">First Name:</label><br>
-		<input type="text" id="fname" name="fname"><br>
+		<input type="text" id="fname" name="fname">
+		<br>
 	</form>
 
 	<form>
 		<label for="email">E-mail address:</label><br>
 		<input type="text" id="email" name="email"><br>
 	</form>
-<br><br>
 
-<!--Scrolling Text box -->
-	<form>
-		<label for="textbox">Scrolling text box:</label><br>
-		<textarea id="textbox" name="textbox" rows="3" cols="60"></textarea><br>
-		</form>
-<br>
+
+
+
 <!--Radio button -->
 	<form>				
-		<h4>Some heading</h4>
+		<p>Make a choice</p>
 
 		<input type="radio" id="choice1" name="choices" value="choice1">
 		<label for="choice1">Choice 1</label><br>
@@ -49,29 +48,44 @@
 		<input type="radio" id="choice4" name="choices" value="choice4">
 		<label for="choice4">Choice4</label><br>
 	</form>
-<br><br>
+
 
 <!--Check box group -->
-<h4>The checkbox group</h4>
+<p>The checkbox group</p>
 	<form>
 		<input type="checkbox" id="c1" name="c1" value="choice 1">
 		<label for="c1">Checkbox 1</label><br>
 
 		<input type="checkbox" id="c2" name="c2" value="choice 2">
 		<label for="c1">Checkbox 2 </label><br>
+
+		<input type="checkbox" id="c3" name="c3" value="choice 3">
+		<label for="c3">Checkbox 3</label><br>
 	</form>
 
-</div>
 
+	<form>
+		<p>Make a selection</p>
+		
+		<select size="3" name="selection" id="selection">
+			<option value="selection1">Selection 1</selection>
+			<option value="selection2">Selection 2</selection>
+			<option value="selection3">Selection 3</selection>
+			<option value="selection4">Selection 4</selection>
+			<option value="selection5">Selection 5</selection>
+		</select>
+	</form>
+<br>
 
-
-
-
-
-
-
-
-
+<!--Scrolling Text box -->
+	<form>
+		<label for="textbox">Scrolling text box:</label><br>
+		<textarea id="textbox" name="textbox" rows="3" cols="60"></textarea><br>
+		</form>
+<br>
+	<input type="submit" value="Submit">
+	<input type="reset">
+</fieldset>
 
 
 <footer>
