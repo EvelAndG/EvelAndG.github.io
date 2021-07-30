@@ -1,10 +1,50 @@
 body {
 	background-color: lightslategrey;
-	padding: 5% 15% 5% 10%;
+	padding: 10px;
 	margin: auto;
 
 }
 
 a:hover {
 	background-color: beige;
+}
+
+p {
+	font-weight: bold;
+}
+.bold {
+	font-weight: bold;
+}
+
+legend {
+
+	font-weight: bold;
+	font-family:"Courier New","Courier";
+	font-size: 150%;
+}
+
+fieldset {
+	margin: auto;
+	padding: 5px;
+
+	max-width: 700px;
+	overflow-x:hidden;
+	background-color: lightcoral;
+	
+}
+
+
+form {
+	margin: none;
+	padding: 5px;
+	
+}
+
+.center {
+	margin: auto;
+	float: none;
+	display: block;
+	color: red;
+	text-align: center;
+	width: auto;
 }
