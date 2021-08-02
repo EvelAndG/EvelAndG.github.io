@@ -5,15 +5,64 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Unit 11 Page 2</title>
+		<link rel="stylesheet" href="/Unit11/unit11style.css">
 </head>
 <body>
 <a href="/Unit11/unit11.html">Return</a>
 
 <h1>Page 2 </h1>
 
+<!--Username input, maxlength 30 characters and with form action -->
+<form action="http://webdevbasics.net/scripts/demo.php" method="post">
+	<label for="uname">Username:</label><br>
+	<input type="text" id="uname" maxlength="30">
+	<input type="submit" value="Submit">
+</form>
+<br>
 
 
+<fieldset class="fieldset1">
+	<legend>Choose your favorite month</legend>
 
+	<input type="radio" id="January" name="fav_month" value="January">
+	<label for="January">January</label><br>
+	<input type="radio" id="February" name="fav_month" value="February">
+	<label for="February">February</label><br>
+	<input type="radio" id="March" name="fav_month" value="March">
+	<label for="March">March</label><br>
+	<input type="radio" id="April" name="fav_month" value="April">
+	<label for="May">April</label><br>
+	<input type="radio" id="May" name="fav_month" value="May">
+	<label for="June">May</label><br>
+	<input type="radio" id="June" name="fav_month" value="June">
+	<label for="June">June</label> <br>
+	<input type="radio" id="July" name="fav_month" value="July">
+	<label for="July">July</label><br>
+	<input type="radio" id="August" name="fav_month" value="August">
+	<label for="August">August</label><br>
+	<input type="radio" id="September" name="fav_month" value="September">
+	<label for="September">September</label><br>
+	<input type="radio" id="October" name="fav_month" value="October">
+	<label for="October">October</label><br>
+	<input type="radio" id="November" name="fav_month" value="November">
+	<label for="November">November</label><br>
+	<input type="radio" id="December" name="fav_month" value="December">
+	<label for="December">December</label><br>
+</fieldset>
+<br>
+
+<form>
+  <label for="sites">Choose your favorite social networking site:</label>
+  <select name="sits" id="sites">
+    <option value="Facebook">Facebook</option>
+    <option value="YouTube">YouTube</option>
+    <option value="Instagram">Instagram</option>
+    <option value="TikTok">TikTok</option>
+		<option value="Reddit">Reddit</option>
+  </select>
+  
+  <input type="submit" value="Submit">
+</form>
 
 
 
