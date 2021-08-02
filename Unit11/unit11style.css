@@ -1,5 +1,6 @@
 body {
 	padding: 10px;
+	background-color: rgba(93, 204, 248, 0.795);
 }
 
 .border {
@@ -41,4 +42,21 @@ text-align:    center;
 .legend1 {
 	font-weight: bold;
 	font-size: 150%;
+}
+
+h1 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 200%;
+	font-weight: bold;
+}
+a {
+	font-family: 'Courier New', Courier, monospace;
+}
+legend {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+label {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
 }
