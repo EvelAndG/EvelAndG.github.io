@@ -6,7 +6,7 @@ body {
 .border {
 	border: 2px solid black;
 	border-collapse: collapse;
-	padding: 2px;
+	padding: 6px;
 }
 
 .center {
@@ -55,8 +55,13 @@ a {
 legend {
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: bold;
+	
 }
 label {
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: bold;
+}
+
+a {
+	font-size: 150%;
 }
